@@ -47,10 +47,4 @@ ros2 param set /cmd_vel_splitter queue_depth 20
 | `queue_depth` | int | `10` | QoS queue depth for sub and pubs (must be >= 1). |
 
 ## Configuration
-Default parameters are in [config/cmd_vel_splitter.yaml](config/cmd_vel_splitter.yaml). Adjust this file or override with `ros2 param set`.
-
-## Repository Pointers
-- Package metadata: [package.xml](package.xml)
-- Setup: [setup.py](setup.py), [setup.cfg](setup.cfg)
-- Resource index: [resource/ros2_cmd_vel_splitter](resource/ros2_cmd_vel_splitter)
-- Node implementation: [ros2_cmd_vel_splitter/cmd_vel_splitter_node.py](ros2_cmd_vel_splitter/cmd_vel_splitter_node.py)
+Default parameters are in [config/cmd_vel_splitter.yaml](config/cmd_vel_splitter.yaml). Adjust this file or override with `ros2 param set`. via the terminal tool
